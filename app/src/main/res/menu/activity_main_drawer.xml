@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/webFragment"
+            android:icon="@drawable/ic_browser_name"
+            android:title="Browser" />
+        <item
+            android:id="@+id/calculateFragment"
+            android:icon="@drawable/ic_calculator_name"
+            android:title="Сalculator" />
+        <item
+            android:id="@+id/musicFragment"
+            android:icon="@drawable/ic_music_name"
+            android:title="Music" />
+        <item
+            android:id="@+id/sensorsFragment"
+            android:icon="@drawable/ic_sensors_name"
+            android:title="Sensors" />
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@drawable/ic_camera_name"
+            android:title="Camera" />
+        <item
+            android:id="@+id/recorderFragment"
+            android:icon="@drawable/ic_recorder_name"
+            android:title="Recorder" />
+        <item
+            android:id="@+id/settingsFragment"
+            android:icon="@drawable/ic_settings_name"
+            android:title="Settings" />
+        <item
+            android:id="@+id/storiesFragment"
+            android:icon="@drawable/ic_story_name"
+            android:title="Stories" />
+    </group>
+</menu>

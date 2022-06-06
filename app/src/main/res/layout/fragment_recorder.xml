@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9254FF"
+    tools:context=".RecorderFragment">
+
+    <Button
+        android:backgroundTint="#38A9DC"
+        android:id="@+id/btnStart1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Начать запись"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.165" />
+
+    <Button
+        android:backgroundTint="#38A9DC"
+        android:id="@+id/btnStop1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="Остановить запись"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnStart1" />
+
+    <Button
+        android:backgroundTint="#38A9DC"
+        android:id="@+id/btnListen1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="Прослушать"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnStop1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="262dp"
+        android:layout_height="206dp"
+        android:layout_marginTop="124dp"
+        android:src="@drawable/ic_recorder_mic_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnListen1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

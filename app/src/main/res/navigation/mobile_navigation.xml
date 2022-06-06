@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.zavarzin.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.zavarzin.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.zavarzin.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="ru.mirea.zavarzin.mireaproject.WebFragment"
+        android:label="Browser"
+        tools:layout="@layout/fragment_web" />
+    <fragment
+        android:id="@+id/calculateFragment"
+        android:name="ru.mirea.zavarzin.mireaproject.CalculateFragment"
+        android:label="Сalculator"
+        tools:layout="@layout/fragment_calculate" />
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="ru.mirea.zavarzin.mireaproject.MusicFragment"
+        android:label="Music"
+        tools:layout="@layout/fragment_music" />
+    <fragment
+        android:id="@+id/sensorsFragment"
+        android:name="ru.mirea.zavarzin.mireaproject.SensorsFragment"
+        android:label="Sensors"
+        tools:layout="@layout/fragment_sensors" />
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="ru.mirea.zavarzin.mireaproject.CameraFragment"
+        android:label="Camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/recorderFragment"
+        android:name="ru.mirea.zavarzin.mireaproject.RecorderFragment"
+        android:label="Recorder"
+        tools:layout="@layout/fragment_recorder" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.mirea.zavarzin.mireaproject.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/storiesFragment"
+        android:name="ru.mirea.zavarzin.mireaproject.StoriesFragment"
+        android:label="Stories"
+        tools:layout="@layout/fragment_stories" />
+</navigation>
