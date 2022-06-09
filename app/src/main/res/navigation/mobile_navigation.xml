@@ -62,4 +62,9 @@
         android:name="ru.mirea.zavarzin.mireaproject.StoriesFragment"
         android:label="Stories"
         tools:layout="@layout/fragment_stories" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="ru.mirea.zavarzin.mireaproject.MapsFragment"
+        android:label="Maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>
